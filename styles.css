@@ -1,2 +1,49 @@
 
 /* Your CSS Code here. */
+body {
+    margin: 0;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.player {
+    width: 700px;
+}
+
+.viewer {
+    width: 100%;
+    display: block;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #444;
+}
+
+.progress {
+    flex: 1;
+    height: 10px;
+    background: #777;
+    cursor: pointer;
+}
+
+.progress__filled {
+    height: 100%;
+    width: 0%;
+    background: #ffc600;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+input[type="range"] {
+    width: 100px;
+}
